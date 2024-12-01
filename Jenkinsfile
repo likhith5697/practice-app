@@ -8,10 +8,10 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clone the repository
-                git branch: 'main', url: 'https://your-repo-url.git'
+                git branch: 'main', url: 'https://github.com/likhith5697/practice-app'
             }
         }
-        
+
         stage('Build Backend') {
             steps {
                 dir('practice') {
